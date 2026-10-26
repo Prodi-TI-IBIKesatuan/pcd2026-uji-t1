@@ -6,11 +6,11 @@ kelas: uji
 topik: t1
 anggota:
   - github: scahyadi
-    nama: "[isi]"
-    peran: "[isi]"
+    nama: "Dosen (uji coba)"
+    peran: "data, klasik"
   - github: uji-anggota-dua
-    nama: "[isi]"
-    peran: "[isi]"
+    nama: "Anggota uji 2"
+    peran: "modern"
   - github: uji-anggota-tiga
-    nama: "[isi]"
-    peran: "[isi]"
+    nama: "Anggota uji 3"
+    peran: "evaluasi"

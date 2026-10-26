@@ -4,7 +4,7 @@ Proyek kelompok **Pengolahan Citra Digital 2026** · kelas `uji` · topik **T1**
 
 [![Cek proyek](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-uji-t1/actions/workflows/cek-proyek.yml/badge.svg)](https://github.com/Prodi-TI-IBIKesatuan/pcd2026-uji-t1/actions/workflows/cek-proyek.yml)
 
-**Lingkup kelompok kami:** [isi: satu kalimat, mis. "pelat motor"]
+**Lingkup kelompok kami:** UJI COBA — repo ini hanya simulasi alur dengan citra sintetis dan kode dummy.
 
 Menemukan letak pelat nomor pada foto kendaraan di lingkungan nyata, lalu membaca karakternya. Anggota dan perannya ada di [ANGGOTA.yml](ANGGOTA.yml); cara kerja kelompok ada di [PANDUAN.md](PANDUAN.md).
 
@@ -19,10 +19,10 @@ Menemukan letak pelat nomor pada foto kendaraan di lingkungan nyata, lalu membac
 
 ## Dataset (Tahap 1)
 
-- Jumlah citra: [isi, minimal 150]
-- Foto sendiri: [isi, minimal 45, 15 per anggota]
-- Sumber data tambahan dan lisensinya: [isi, atau tulis "tidak ada"]
-- Langkah preprocessing: [isi, ringkas dan berurutan]
+- Jumlah citra: 6 citra sintetis (uji coba; kelompok sungguhan minimal 150)
+- Foto sendiri: tidak ada (uji coba)
+- Sumber data tambahan dan lisensinya: tidak ada; citra dibangkitkan acak dengan NumPy
+- Langkah preprocessing: DUMMY — hanya memperkecil ukuran (fungsi bawaan template)
 
 Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.md). Contoh sebelum–sesudah ada di [outputs/figures/](outputs/figures/).
 
