@@ -1,0 +1,16 @@
+# Anggota kelompok. Repo ini PUBLIK: jangan menulis NIM, email, atau nomor HP di sini.
+# nama : nama panggilan
+# peran: data, klasik, modern, evaluasi (boleh lebih dari satu, pisahkan dengan koma).
+#        Keempat peran harus ada yang memegang. Lihat proyek/README.md di repo kelas-pcd-2026.
+kelas: uji
+topik: t1
+anggota:
+  - github: scahyadi
+    nama: "[isi]"
+    peran: "[isi]"
+  - github: uji-anggota-dua
+    nama: "[isi]"
+    peran: "[isi]"
+  - github: uji-anggota-tiga
+    nama: "[isi]"
+    peran: "[isi]"

@@ -1,0 +1,7 @@
+# Pustaka dasar (sudah tersedia di Google Colab). Tambahkan pustaka metode modern
+# kelompok Anda di bawah, mis. ultralytics, easyocr, pytesseract, open_clip_torch.
+numpy>=1.26
+opencv-python-headless>=4.9
+matplotlib>=3.8
+scikit-image>=0.22
+pandas>=2.0

@@ -1,0 +1,39 @@
+# Pemeriksaan otomatis "cek". Wajib hijau sebelum pull request bisa di-merge ke main.
+# Pada Release tahap-1 / tahap-2, syarat tahap itu ikut diperiksa.
+# Berkas ini dikelola dosen; jangan diubah.
+name: Cek proyek
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cek-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pasang pustaka pemeriksaan
+        run: python -m pip install -q pyyaml numpy opencv-python-headless pytest
+      - name: Periksa struktur dan isi repo
+        env:
+          TAG: ${{ github.event_name == 'release' && github.event.release.tag_name || '' }}
+        run: |
+          case "$TAG" in
+            tahap-1) TAHAP=1 ;;
+            tahap-2) TAHAP=2 ;;
+            *) TAHAP=0 ;;
+          esac
+          python .github/scripts/cek_proyek.py --tahap "$TAHAP" --ringkasan "$GITHUB_STEP_SUMMARY"
+      - name: Tes alat bantu dan tes kelompok
+        run: python -m pytest -q tests

@@ -1,0 +1,25 @@
+name: Pekerjaan kelompok
+description: Satu pekerjaan yang dikerjakan satu anggota (mis. "Foto 20 motor malam", "Implementasi CLAHE").
+labels: []
+body:
+  - type: dropdown
+    id: peran
+    attributes:
+      label: Peran
+      options: [data, klasik, modern, evaluasi]
+    validations:
+      required: true
+  - type: dropdown
+    id: tahap
+    attributes:
+      label: Tahap
+      options: [tahap-1, tahap-2]
+    validations:
+      required: true
+  - type: textarea
+    id: rincian
+    attributes:
+      label: Rincian dan target selesai
+      placeholder: Apa yang dikerjakan, hasil yang diharapkan, dan kapan selesai.
+    validations:
+      required: true

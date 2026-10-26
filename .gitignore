@@ -1,0 +1,19 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.ipynb_checkpoints/
+.env
+# Dataset lengkap disimpan di Google Drive, bukan di repo.
+citra/
+dataset/
+data/raw/
+data/citra/
+*.zip
+*.rar
+*.7z
+# Bobot model unduhan
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
