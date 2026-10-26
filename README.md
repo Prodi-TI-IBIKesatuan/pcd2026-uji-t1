@@ -30,17 +30,17 @@ Rincian dataset, format anotasi, dan tautan Drive: [data/README.md](data/README.
 
 | Metode | Jenis | IoU | CER |
 | --- | --- | --- | --- |
-| [isi: nama metode klasik 1] | klasik | [isi] | [isi] |
-| [isi: nama metode klasik 2] | klasik | [isi] | [isi] |
-| [isi: nama model] | modern | [isi] | [isi] |
+| Dummy klasik 1 | klasik | 0.000 | 1.000 |
+| Dummy klasik 2 | klasik | 0.000 | 1.000 |
+| Dummy modern | modern | 0.000 | 1.000 |
 
-- **Uji ablasi:** [isi: parameter atau langkah yang diubah, dan pengaruhnya pada metrik]
-- **Kasus gagal:** [isi: minimal 3 contoh dan penyebabnya, gambar di outputs/figures/]
-- **Kesimpulan:** [isi: metode mana yang terbaik untuk lingkup kami dan mengapa]
+- **Uji ablasi:** UJI COBA — parameter diubah 4 kali; metode dummy memberi metrik yang sama.
+- **Kasus gagal:** UJI COBA — semua citra gagal karena metode dummy tidak mendeteksi pelat.
+- **Kesimpulan:** UJI COBA — tidak ada kesimpulan; repo ini hanya menguji alur pengumpulan.
 
 ## Demo
 
-Aplikasi: [isi: tautan https://huggingface.co/spaces/...]
+Aplikasi: https://huggingface.co/spaces/contoh/pcd2026-uji-t1 (tautan fiktif untuk uji coba)
 
 Unggah foto kendaraan, tampilkan kotak pelat dan teks yang terbaca. Kode aplikasi ada di [app/](app/).
 
@@ -50,4 +50,4 @@ Tuliskan setiap kode, model, dataset, atau bantuan AI yang dipakai beserta sumbe
 
 | Yang dipakai | Sumber | Dipakai untuk |
 | --- | --- | --- |
-| [isi] | [isi] | [isi] |
+| Kerangka notebook dan pcd_proyek | Template kelas-pcd-2026 | Seluruh notebook (uji coba) |
