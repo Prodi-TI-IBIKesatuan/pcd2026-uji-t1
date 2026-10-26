@@ -4,12 +4,12 @@ Dataset lengkap **tidak** disimpan di repo ini. Repo hanya berisi `sample/` (≤
 
 ## Ringkasan
 
-- Tautan folder Google Drive (akses terbatas): [isi: https://drive.google.com/drive/folders/...]
-- Jumlah citra: [isi]
-- Foto sendiri per anggota: [isi: mis. andi 20, budi 15, ...]
-- Sumber data tambahan dan lisensinya: [isi, atau "tidak ada"]
-- Jumlah baris anotasi: [isi]
-- Cara pengambilan foto (perangkat, waktu, lokasi umum): [isi]
+- Tautan folder Google Drive (akses terbatas): https://drive.google.com/drive/folders/CONTOH-UJI-COBA (tautan fiktif)
+- Jumlah citra: 6 (sintetis)
+- Foto sendiri per anggota: tidak ada (uji coba)
+- Sumber data tambahan dan lisensinya: tidak ada
+- Jumlah baris anotasi: 6 (fiktif)
+- Cara pengambilan foto (perangkat, waktu, lokasi umum): tidak ada; citra dibangkitkan program
 
 ## Anotasi
 
